@@ -10,12 +10,12 @@ const DateDisplay = props => (
     <List>
       <ListItem>
         <ListItemText>
-          Day: {props.apiResponse.slice(0, 2).replace(/^0+/, "")}
+          Day: {props.apiResponse.slice(3, 5).replace(/^0+/, "")}
         </ListItemText>
       </ListItem>
       <ListItem>
         <ListItemText>
-          Month: {props.apiResponse.slice(3, 5).replace(/^0+/, "")}
+          Month: {props.apiResponse.slice(0, 2).replace(/^0+/, "")}
         </ListItemText>
       </ListItem>
       <ListItem>
